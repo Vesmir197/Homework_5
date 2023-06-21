@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sintony&family=Tomorrow&display=swap');
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	padding: 2%;
+}
+p.mainMenu {
+   display: none;
+}
+
+.nav {
+     display: flex;
+     align-items: center;
+    }
+ul {
+    display: flex;
+}
+li {
+    padding: 10px;
+    list-style-type: none;
+    padding-right: 20px;
+    font-size: 20px;
+   
+}
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Tomorrow';
+}
+
+
+ul li a:hover {
+	background: #000;
+	color: #fff;
+    transition: .5s
+}
+section.first-container {
+    position: relative;
+}
+div.container {
+    position: relative;
+    width: 1440px;
+    height: 610px;
+    left: 0px;
+    margin-top: 10px;
+    background-image: url(Rectangle.jpg);
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+}
+span.description {
+    width: 1241px;
+    height: 280px;
+    left: 100px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+span.description {
+
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+span.description-follow {
+
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+section.second-container {
+    position: relative;
+}
+div.picbox {
+    margin-top: 0px;
+    margin-left: 454px;
+    width: 533px;
+    height: 355px;  
+    padding:0px
+}
+div.container-follow {
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    margin-right: 200px;
+}
+img.picture-box {
+    width: 288px;
+    height: 288px;
+
+   
+}
+
+div.wrapper {
+
+    width: 770px;
+    height: 288px;
+    left: 30px;
+    right: 170px;
+    top: 200px;
+    padding-left: 50px;
+    float: right;
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000000;
+   
+}
+
+section.third-container {
+    position: relative;
+}
+div.container-green {
+    width: 1440px;
+    height: 862px;
+    background-image: url(Rectangle.png);
+}
+
+span.text-juarez {
+
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    margin: 130px;
+}
+
+section.forth-container {
+    position: relative;
+}
+div.image-box {
+    margin-left: 99px;
+    margin-top: 130px; 
+    margin-bottom: 130px;
+    margin-right: 0px;
+    
+    width: 606px;
+    height: 608px;
+    display: inline-block;
+}
+
+
+span.juarez-text {
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-bottom: 0;
+    width: 480px;
+    height: 164px;
+    float: right;
+   
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    color: #000000;
+
+
+}
+span.juarez-description {
+  
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    width: 460px;
+    height: 114px;
+    float: right;
+
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 470;
+    font-size: 24px;
+    line-height: 160%;    
+    color: #000000;
+    
+}
+
+@media screen and (max-width:780px){
+p.mainMenu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px; 
+    margin-right: 10px;
+    display: block;
+}
+}
+@media screen and (max-width: 780px) {
+    a.img {
+        width: 140px;
+        height: 14px;
+        left: 93px;
+        top: 23px;
+    }
+}
+
+@media screen and (max-width: 780px){
+    a.search-logo, a.about, a.shop, a.cart-logo {
+        display: none;
+    }
+}
+@media screen and (max-width: 780px) {
+    div.container {
+        width: 320px;
+        height: 547px;
+        left: 0px;
+        right: 0;
+        bottom: 0;
+        top: 60px;
+        position: absolute;
+    }   
+}
+@media screen and (max-width:780px){
+    span.description{
+        font-size: 26px;
+        top: 50px;
+        left: 20px;
+        right: 20px;
+        bottom: 0;
+        position: absolute;
+    
+     
+    }
+}
+@media screen and (max-width:780px) {
+    div.picbox {
+        position: absolute;
+        width: 280px;
+        height: 186px;
+        left: 20px;
+        top: 223px;
+        display: flexbox;
+    }
+    
+}
+@media screen and (max-width:780px) {
+    span.description-follow {
+        font-size: 26px;
+        top: 0;
+        left: 20px;
+        right: 20px;
+        bottom: 50px;
+        position: relative;
+    }
+}
+@media screen and (max-width:780px) {
+    div.container-follow {
+        display: flex;
+    }
+}
+@media screen and (max-width:780px) {
+    img.picture-box{
+        position: relative;
+        width: 280px;
+        height: 280px;
+        left: 20px;
+        top: 10px;
+    }
+}
+@media screen and (max-width:780px) {
+    div.wrapper{
+        font-size: 26px;
+        flex-wrap: wrap;
+      position: relative;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:780px) {
+    div.wrapper {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width:780px) {
+    span.text-juarez {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width:780px) {
+    span.juarez-text {
+        font-size: 26px;
+        flex-wrap: wrap;
+        width: 280px;
+        height: 132px;
+       top: 20px;
+    }
+}
+@media screen and (max-width:780px) {
+    span.juarez-description {
+        top: 20px;
+        font-size: 26px;
+        flex-wrap: wrap;
+        width: 280px;
+        height: 128px;
+    }
+}
+
+
+
+
+
+
+
