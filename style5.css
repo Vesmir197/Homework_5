@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sintony&family=Tomorrow&display=swap');
-* {
-	box-sizing: border-box;
+* {box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
-  font-family: sans-serif;
+    max-width: 1440 px;
+    margin: 0 auto;
+
 }
 
 header {
